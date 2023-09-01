@@ -1,12 +1,13 @@
 
 import './App.css'
+import { About } from './components/About'
 
 
 function App() {
 
   return (
     <>
-      <h1 className='text-4xl underline font-bold'>Teste</h1>
+      <About />
     </>
   )
 }
