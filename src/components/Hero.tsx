@@ -17,7 +17,7 @@ export function Hero() {
                                 Desenvolvedor Front-end
                         </h2>
                         <p className="text-gray-600 my-6 text-center md:text-left">
-                                Desenvolvedor Front-end apaixonado pela transformação de ideias em realidade, por meio de interfaces de usuário envolventes e funcionais. 
+                                Desenvolvedor Front-end apaixonado por transformar a realidade por meio de interfaces de usuário envolventes e funcionais. 
                         </p>
                         <div className="flex items-center gap-1 justify-center md:justify-start gap 2">
                             <a href="#" className="underline font-bold text-white">Fale Comigo</a>
