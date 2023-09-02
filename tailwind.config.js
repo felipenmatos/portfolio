@@ -7,7 +7,11 @@ export default {
       handwriting: ["Caveat"],
       headline: ["Poppins"],
     },
-    extend: {},
+    extend: {
+      background: {
+        'photo-profile': "url('./src/assets/imagemProfile.JPG')"
+      }
+    },
   },
   plugins: [],
 }
