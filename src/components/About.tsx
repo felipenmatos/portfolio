@@ -2,7 +2,7 @@
 
 export function About() {
     return (
-        <section className="container mx-auto my-4 max-w-5xl p-4">
+        <section className="container mx-auto my-4 max-w-10xl p-4">
             <div className="relative p-4 text-center">
                 <h2 className="relative text-blue-900 z-10">
                     <span className="mr-2 font-headline text-3xl font-bold">
@@ -19,13 +19,13 @@ export function About() {
 
                 </div>
             </div>
-            <div className=" relative mx-auto mt-20 max-w-lg">
+            <div className=" relative mx-auto mt-20 max-w-lg ">
                 <div className="relative bg-blue-100 w-full rounded-lg p-4 ps-20 md:h-64 md:ps-48">
                     <div className="relative h-full w-full rounded-lg bg-gray-50 p-4">
-                        <p className="font-handwriting tx-lg font-bold">Olá,</p>
+                        <p className="font-handwriting text-lg font-bold">Olá,</p>
                         <p>
-                            <span className="mr-1">Meu nome é</span>
-                            <span className="font-headline font-bold uppercase text-blue-900">Felipe Nonato</span>
+                            <span className="mr-1">Pode me chamar de</span>
+                            <span className="font-headline font-bold uppercase text-blue-900">Felps</span>
                         </p>
                         <table className="mt-4 w-full text-sm">
               <tbody>
@@ -33,7 +33,7 @@ export function About() {
                   <td className="font-headline font-bold uppercase text-blue-900">
                     Idade:
                   </td>
-                  <td className="text-xr">29</td>
+                  <td className="text-xs">29</td>
                 </tr>
                 <tr>
                   <td className="font-headline font-bold uppercase text-blue-900">
@@ -42,7 +42,7 @@ export function About() {
                   <td>
                     <a
                       href="tel:+551299999999"
-                      className="underline hover:text-blue-800 text-xr"
+                      className="underline hover:text-blue-800 text-xs"
                     >
                       +55 75 9.98241-0325
                     </a>
@@ -55,7 +55,7 @@ export function About() {
                   <td>
                     <a
                       href="#"
-                      className="underline hover:text-blue-800 text-xr"
+                      className="underline hover:text-blue-800 text-xs"
                     >
                       contato.felipenonato@gmail.com
                     </a>
@@ -69,7 +69,7 @@ export function About() {
                     <a
                       href="https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt"
                       target="_blank"
-                      className="underline hover:text-blue-800"
+                      className="underline hover:text-blue-800 text-xs"
                     >
                       Santo Antônio de Jesus - Ba
                     </a>
