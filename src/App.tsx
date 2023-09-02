@@ -5,7 +5,7 @@ import { Hero } from './components/Hero'
 import { Project } from './components/Project'
 import { Service } from './components/Services'
 import { Skills } from './components/Skills'
-import { Testmonials } from './components/Testmonials'
+import { Testimonials } from './components/Testimonials'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Service />
       <Project />
       <Skills />
-      <Testmonials />
+      <Testimonials />
     </>
   )
 }
