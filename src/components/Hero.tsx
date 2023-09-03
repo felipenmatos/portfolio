@@ -2,7 +2,7 @@ import { HiArrowDownTray } from "react-icons/hi2"
 
 export function Hero() {
     return (
-        <section className="bg-gradient-to-tr from-black to-gray-900 text-white">
+        <section className="bg-gradient-to-tr from-black to-gray-900 text-white d:rounded-br-[180px]">
             <div className="container mx-auto max-w-4x1 p-2 py-12 flex flex-col md:flex-row">
             <div className="basis-1/2">
                         <h1 className="mb-6 text-center md:text-left ">
@@ -20,9 +20,11 @@ export function Hero() {
                                 Desenvolvedor Front-end apaixonado por transformar a realidade por meio de interfaces de usuário envolventes e funcionais. 
                         </p>
                         <div className="flex items-center gap-1 justify-center md:justify-start gap 2">
-                            <a href="#" className="underline font-bold text-white">Fale Comigo</a>
+                            <a href="#contact" className="underline font-bold text-white">Fale Comigo</a>
                             <span className="italic text-gray-500">ou</span>
-                            <a className="button text-gray-600 hover:text-gray-900 flex items-center gap-1"
+                            <a href="https://drive.google.com/file/d/1xlZCboxc-NzJHoUrkZf7Sf9-vuvKnC1n/view?usp=sharing" 
+                            className="button text-gray-600 hover:text-gray-900 flex items-center gap-1" 
+                            target="_blank"
                             >
                                 <HiArrowDownTray />
                                 Baixe meu CV
